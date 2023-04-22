@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    
+}
+.table__button-group{
+    visibility: visible;
+    display: flex;
+    padding-right: 30px;
+
+}
+@media screen and (min-width:1025px) {
+    .table__button-group{
+        visibility: hidden;
+        transition: visibility .06s ease-in;
+    }
+    tr:hover > td .table__button-group{
+      visibility: visible;
+    }
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #f2f2f2;
+}
+td,
+th {
+    text-align: left;
+    padding: 8px;
+}
+tr {
+    border-bottom: 1px solid #DFE0EB
+    ;
+    cursor: pointer;
+}
+#data-table {
+    overflow-x: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.overview::content("Registered") {
+    color: blue;
+}
+.table__button-group a:first-child {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    color: #0A7DDC;
+    text-decoration: none;
+}
+.table__button-group a:last-child {
+    font-size: 10px;
+    padding-left: 7px;
+    color: #0A7DDC;
+}
+
+tr {
+    font-family: manr;
+}
+td {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18.27px;
+    color: #4F4F4F;
+    padding: 15px 0 15px 30px;
+    
+}
+th {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -1%;
+    color: #FFFFFF;
+    padding: 20px 30px;
+}
+tbody tr:hover {
+    background-color: #F0F8FF;
+}
+thead {
+    background: #2F80ED;
+
+}
+table tr:last-child td:last-child {
+    /* border: 2px solid green; */
+    border-bottom-right-radius: 10px;
+}
+table tr:last-child td:first-child {
+    /* border: 2px solid green; */
+    border-bottom-left-radius: 10px;
+}
+#data-table {
+    border-radius: 15px;
+}
+#tableList {
+    background-color: #ffffff;
+}
+#overview {
+    font-weight: 500;
+    font-size: 14px;
+}
+.registered span {
+    background-color: #E6F2FC;
+    color: #0A7DDC;
+}
+.attended span{
+    color: #19A483;
+    background-color: #E8F6F3;
+}
+.declined span {
+    color: #8B8A8F;
+    background-color:  #F7F8FB;
+}
+.waitlist span {
+    color: #BB6BD9;
+    background-color: #F5ECFF;
+}
+.cancelled span {
+    color: #F2994A;
+    background-color: #FEF2F2;
+}
+.registered span, .attended span, .declined span, .waitlist span, .cancelled span {
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+  
+  

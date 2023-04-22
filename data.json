@@ -1,0 +1,236 @@
+[
+    {
+
+    "success": true,
+ 
+    "message": "List all games successfully",
+ 
+    "data": [
+ 
+        {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Attended"
+ 
+            
+ 
+        },
+        {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Attended"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Declined"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Waitlist"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Cancelled"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Cancelled"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Waitlist"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Registered"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Registered"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Registered"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Registered"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Registered"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Registered"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Registered"
+ 
+            
+ 
+        }, {
+ 
+            "id": 1,
+ 
+            "name": "Azavista conference",       
+ 
+            "startDate": "2022-02-08T08:08:45.978Z",
+ 
+            "endDate": "2023-02-20T08:22:42.306Z",
+
+            "overview": "Registered"
+ 
+            
+ 
+        }
+ 
+    ],
+ 
+    "meta": {
+ 
+        "count": 15,
+ 
+        "total_page": 1,
+ 
+        "current_page": 1
+ 
+    }
+ 
+ }
+]
