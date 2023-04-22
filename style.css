@@ -126,5 +126,32 @@ table tr:last-child td:first-child {
     padding: 5px 10px;
     border-radius: 4px;
 }
-  
-  
+
+.pagination{
+    display: flex;
+}
+
+.pagination li{
+    width: fit-content;
+    margin: 1px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.pagination li a{
+    color: #000;
+    text-decoration: none;
+}
+
+.box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.stats{
+    color: grey;
+    font-size: 0.9rem;
+
+}
