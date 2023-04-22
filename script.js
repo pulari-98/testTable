@@ -1,3 +1,9 @@
+var box = paginator({
+    table: document.getElementById("data-table").getElementsByTagName("table")[0],
+    box_mode: "list",
+});
+box.className = "box";
+document.getElementById("table_box_bootstrap").appendChild(box);
 
 function paginator(config) {
     // throw errors if insufficient parameters were given
@@ -220,7 +226,6 @@ function paginator(config) {
     }
     return box;
 }
-
 jQuery.fn.sortElements = (function(){
     
     var sort = [].sort;
