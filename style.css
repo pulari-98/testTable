@@ -2,11 +2,17 @@
     padding: 0;
     
 }
+a ,p , div {
+    font-family: 'Manrope', sans-serif;
+}
 .table__button-group{
     visibility: visible;
     display: flex;
     padding-right: 30px;
 
+}
+#table_box_bootstrap {
+    background-color: #fff;
 }
 @media screen and (min-width:1025px) {
     .table__button-group{
@@ -129,6 +135,7 @@ table tr:last-child td:first-child {
 
 .pagination{
     display: flex;
+    align-items: center;
 }
 
 .pagination li{
@@ -141,17 +148,63 @@ table tr:last-child td:first-child {
 .pagination li a{
     color: #000;
     text-decoration: none;
+    text-align: center;
+    padding: 6px 0;
+    width: 35px;
+    display: block;
+}
+.pagination li:first-child a, .pagination li:last-child a {
+    font-size: 26px;
+    padding: 0 10px;
+}
+.pagination .active a{
+    background-color: #0A7DDC;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
 }
 
 .box{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
+    padding: 0 30px;
+    height: 60px;
 }
 
 .stats{
-    color: grey;
-    font-size: 0.9rem;
+    color: #8B8A8F;
+    font-size: 14px;
+    padding-right: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
 
+}
+.dvrecords {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.records {
+    width: 100%;
+    max-width: 50px;
+    border: 0;
+    background-color: white;
+    border-radius: 5px;
+    height: 34px;
+    padding: 0 5px;
+    font-size: 14px;
+    box-shadow: 0 1px 5px 1px rgba(150,170,180,0.5);
+}
+.records:focus {
+    border: 0;
+}
+select , option {
+    cursor: pointer;
+}
+select option:active {
+    background: red;
 }
